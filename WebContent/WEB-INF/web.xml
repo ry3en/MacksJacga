@@ -14,9 +14,6 @@
 <url-pattern>/RegisterServlet</url-pattern>
 </servlet-mapping>
 <display-name>LoginMvc</display-name>
-<welcome-file-list>
-<welcome-file>Login.jsp</welcome-file>
-</welcome-file-list>
 <servlet>
 <description></description>
 <display-name>LoginServlet</display-name>
