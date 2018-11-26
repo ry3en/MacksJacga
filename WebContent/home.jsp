@@ -9,6 +9,6 @@ pageEncoding="ISO-8859-1"%>
 <center><h2>Home Page</h2></center>
 <b>User Registration Successful</b>
 <br></br>
-<b>Please <a href="#">log-in</a> to continue.</b>
+<b>Please <a href="Login.jsp">log-in</a> to continue.</b>
 </body>
 </html>
