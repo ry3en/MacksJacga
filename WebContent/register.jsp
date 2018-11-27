@@ -4,6 +4,11 @@ pageEncoding="ISO-8859-1"%>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+      <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.1.3.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
       <title>Register</title>
         <script>
         function validate()
@@ -42,6 +47,27 @@ pageEncoding="ISO-8859-1"%>
         </script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container"> <a class="navbar-brand" href="#">
+          <i class="fa d-inline fa-lg fa-circle-o"></i>
+          <b> MacksJaga</b>
+        </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar17">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar17">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"> <a class="nav-link" href="#">Productos</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Plantillas</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Servicios</a> </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link" href="#">Sobre Nosotros</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Inicia Sesion</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Registrate</a> </li>
+          </ul> <a class="btn btn-outline-light navbar-btn ml-md-2">Buscar</a>
+        </div>
+      </div>
+    </nav>
     <center><h2>Java Registration application using MVC and MySQL </h2></center>
     <form name="form" action="RegisterServlet" method="post" onsubmit="return validate()">
       <table align="center">
